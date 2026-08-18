@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C50000,50:FFD700,100:1a1a1a&height=220&section=header&text=J.A.R.V.I.S.&fontSize=55&fontColor=FFD700&animation=fadeIn&fontAlignY=32&desc=Just%20A%20Rather%20Very%20Intelligent%20System%20—%20Ahmed%20Akremi%20Build&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00D9FF,100:1a1a1a&height=220&section=header&text=J.A.R.V.I.S.&fontSize=55&fontColor=00D9FF&animation=fadeIn&fontAlignY=32&desc=Just%20A%20Rather%20Very%20Intelligent%20System%20—%20Ahmed%20Akremi%20Build&descAlignY=58&descSize=16" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=FFD700&center=true&vCenter=true&width=700&lines=%3E+Booting+system...+OK;%3E+Loading+user+profile%3A+Ahmed+Akremi;%3E+Initializing+dev+protocols...;%3E+Status%3A+Online+and+ready+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=700&lines=%3E+Booting+system...+OK;%3E+Loading+user+profile%3A+Ahmed+Akremi;%3E+Initializing+dev+protocols...;%3E+Status%3A+Online+and+ready+%F0%9F%9A%80" alt="Typing SVG" />
 
 </div>
 
@@ -79,8 +79,8 @@
 
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/-ahmedakremi42%40gmail.com-C50000?style=for-the-badge&logo=gmail&logoColor=FFD700)](mailto:ahmedakremi42@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-Ahmed%20Akremi-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=FFD700)](https://www.linkedin.com/in/ahmed-akremi-8810a323b)
+[![Gmail](https://img.shields.io/badge/-ahmedakremi42%40gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=00D9FF)](mailto:ahmedakremi42@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-Ahmed%20Akremi-000000?style=for-the-badge&logo=linkedin&logoColor=00D9FF)](https://www.linkedin.com/in/ahmed-akremi-8810a323b)
 
 </div>
 
@@ -101,16 +101,16 @@
 
 ### 📊 Diagnostics Report
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ahmed-Akremi&show_icons=true&theme=dark&title_color=FFD700&text_color=FFFFFF&icon_color=C50000&bg_color=0D1117&border_color=C50000&hide_border=false" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmed-Akremi&theme=dark&hide_border=false&background=0D1117&stroke=C50000&ring=FFD700&fire=C50000&currStreakLabel=FFD700" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Ahmed-Akremi&show_icons=true&theme=dark&title_color=00D9FF&text_color=FFFFFF&icon_color=00D9FF&bg_color=0D1117&border_color=00D9FF&hide_border=false" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmed-Akremi&theme=dark&hide_border=false&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" height="165"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmed-Akremi&layout=compact&theme=dark&title_color=FFD700&text_color=FFFFFF&bg_color=0D1117&border_color=C50000&hide_border=false" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmed-Akremi&layout=compact&theme=dark&title_color=00D9FF&text_color=FFFFFF&bg_color=0D1117&border_color=00D9FF&hide_border=false" height="165"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,50:FFD700,100:C50000&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,50:00D9FF,100:000000&height=120&section=footer" width="100%"/>
 
 ```bash
 [SYSTEM] End of transmission.
