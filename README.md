@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:00D9FF,100:1a1a1a&height=220&section=header&text=J.A.R.V.I.S.&fontSize=55&fontColor=00D9FF&animation=fadeIn&fontAlignY=32&desc=Just%20A%20Rather%20Very%20Intelligent%20System%20—%20Ahmed%20Akremi%20Build&descAlignY=58&descSize=16" width="100%"/>
+<img src="ai_core_banner.svg" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=700&lines=%3E+Booting+system...+OK;%3E+Loading+user+profile%3A+Ahmed+Akremi;%3E+Initializing+dev+protocols...;%3E+Status%3A+Online+and+ready+%F0%9F%9A%80" alt="Typing SVG" />
 
@@ -47,7 +47,7 @@
 - Becoming a better developer daily
 
 **🎯 PROTOCOL: LONG_TERM_GOAL**
-- Building my own J.A.R.V.I.S., one project at a time
+- Building smart, high-tech applications, one project at a time
 
 </td>
 </tr>
@@ -92,7 +92,7 @@
 > query fun_fact.exe
 [OUTPUT] I enjoy solving problems and turning ideas into real applications.
 [OUTPUT] No Stark Industries budget required — just coffee and curiosity.
-[STATUS] Sir, I believe this qualifies as a personality trait.
+[STATUS] Confirmed: qualifies as a personality trait.
 ```
 
 ---
@@ -114,7 +114,7 @@
 
 ```bash
 [SYSTEM] End of transmission.
-[SYSTEM] Standing by for further instructions, sir.
+[SYSTEM] Standing by for further instructions.
 ```
 
 </div>
