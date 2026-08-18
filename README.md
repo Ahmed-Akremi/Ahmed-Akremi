@@ -1,51 +1,52 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C50000,50:FFD700,100:1a1a1a&height=220&section=header&text=Ahmed%20Akremi&fontSize=60&fontColor=FFD700&animation=fadeIn&fontAlignY=38&desc=Powered%20by%20Arc%20Reactor%20Tech%20⚡&descAlignY=58&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C50000,50:FFD700,100:1a1a1a&height=220&section=header&text=J.A.R.V.I.S.&fontSize=55&fontColor=FFD700&animation=fadeIn&fontAlignY=32&desc=Just%20A%20Rather%20Very%20Intelligent%20System%20—%20Ahmed%20Akremi%20Build&descAlignY=58&descSize=16" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=650&lines=Hi+there+%F0%9F%91%8B+I'm+Ahmed+Akremi;Web+%26+Mobile+Developer+%F0%9F%92%BB;Telecom+%26+Networks+Enthusiast+%F0%9F%93%A1;Building+the+future%2C+one+repo+at+a+time+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=FFD700&center=true&vCenter=true&width=700&lines=%3E+Booting+system...+OK;%3E+Loading+user+profile%3A+Ahmed+Akremi;%3E+Initializing+dev+protocols...;%3E+Status%3A+Online+and+ready+%F0%9F%9A%80" alt="Typing SVG" />
 
 </div>
 
 ---
 
-### 🦾 About Me
+### 🖥️ System Boot Log
 
-```yaml
-name: Ahmed Akremi
-role: Web & Mobile Developer
-field: Telecommunications Student
-mission: "Turning ideas into real applications, one line of code at a time."
-status: "Suit up. Debug. Ship. Repeat."
+```bash
+[OK] Powering up arc reactor core...
+[OK] Loading identity matrix...
+[OK] Ahmed Akremi — Web & Mobile Developer
+[OK] Field of study: Telecommunications
+[OK] Mission directive: "Turning ideas into real applications, one line of code at a time."
+[READY] All systems nominal. Awaiting instructions, sir.
 ```
 
-- 💻 Passionate about **web and mobile development** — building modern, user-friendly applications and constantly leveling up my skills.
-- 📡 Studying **Telecommunications**, building a strong foundation in networks & systems alongside my programming journey.
-- 🧠 Think of me as Tony Stark in the workshop — minus the billions, plus the debugging sessions at 2 AM.
+- 💻 **Primary directive:** building modern, user-friendly web & mobile applications.
+- 📡 **Secondary field:** Telecommunications — networks, systems, signal & protocol theory.
+- 🧠 **Operating philosophy:** Stark's workshop energy — minus the billions, plus the 2 AM debugging sessions.
 
 ---
 
-### 🔧 Current Suit Upgrades (What I'm Working On)
+### 🔧 Active Protocols (What I'm Working On)
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🌱 Expanding Knowledge**
+**🌱 PROTOCOL: EXPAND_KNOWLEDGE**
 - Telecom & Networking fundamentals
 - Modern system architecture
 
-**💡 Building Projects**
+**💡 PROTOCOL: BUILD**
 - Web & mobile development
 - Real-world applications
 
 </td>
 <td width="50%" valign="top">
 
-**⚙️ Leveling Up**
+**⚙️ PROTOCOL: UPGRADE**
 - Learning new tools & frameworks
 - Becoming a better developer daily
 
-**🎯 Goal**
+**🎯 PROTOCOL: LONG_TERM_GOAL**
 - Building my own J.A.R.V.I.S., one project at a time
 
 </td>
@@ -54,7 +55,7 @@ status: "Suit up. Debug. Ship. Repeat."
 
 ---
 
-### 🛠️ Tech Arsenal
+### 🛠️ Suit Systems (Tech Arsenal)
 
 <div align="center">
 
@@ -66,7 +67,7 @@ status: "Suit up. Debug. Ship. Repeat."
 
 ### 🤝 Collaboration Protocol
 
-💞️ **I'm open to collaborating on:**
+💞️ **Open channels for joint operations on:**
 
 | 🌐 Web Development | 📱 Mobile Apps | 💡 Innovative Tech Ideas |
 |:---:|:---:|:---:|
@@ -74,7 +75,7 @@ status: "Suit up. Debug. Ship. Repeat."
 
 ---
 
-### 📡 Comms Channel (Contact Me)
+### 📡 Comms Array (Contact Me)
 
 <div align="center">
 
@@ -85,15 +86,20 @@ status: "Suit up. Debug. Ship. Repeat."
 
 ---
 
-### ⚡ Fun Fact
+### ⚡ System Log: Fun Fact
 
-> I enjoy solving problems and turning ideas into real applications — no Stark Industries budget required, just coffee and curiosity. 🚀
+```bash
+> query fun_fact.exe
+[OUTPUT] I enjoy solving problems and turning ideas into real applications.
+[OUTPUT] No Stark Industries budget required — just coffee and curiosity.
+[STATUS] Sir, I believe this qualifies as a personality trait.
+```
 
 ---
 
 <div align="center">
 
-### 📊 Suit Diagnostics
+### 📊 Diagnostics Report
 
 <img src="https://github-readme-stats.vercel.app/api?username=Ahmed-Akremi&show_icons=true&theme=dark&title_color=FFD700&text_color=FFFFFF&icon_color=C50000&bg_color=0D1117&border_color=C50000&hide_border=false" height="165"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ahmed-Akremi&theme=dark&hide_border=false&background=0D1117&stroke=C50000&ring=FFD700&fire=C50000&currStreakLabel=FFD700" height="165"/>
@@ -106,6 +112,9 @@ status: "Suit up. Debug. Ship. Repeat."
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,50:FFD700,100:C50000&height=120&section=footer" width="100%"/>
 
-**"Sometimes you gotta run before you can walk."** — Tony Stark
+```bash
+[SYSTEM] End of transmission.
+[SYSTEM] Standing by for further instructions, sir.
+```
 
 </div>
