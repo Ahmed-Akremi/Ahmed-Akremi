@@ -1,4 +1,35 @@
-<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ahmed Akremi — Full Stack &amp; Mobile Developer</title>
+  <desc id="desc">Animated HUD banner: an arc-reactor core, Ahmed Akremi's name and role, his focus areas (web, mobile, AI, cybersecurity) and an "open to opportunities" status.</desc>
+
+  <style>
+    .ring-outer, .ring-mid, .ring-inner, .ticks, .core, .sweep, .bar {
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .ring-outer { animation: spin 18s linear infinite; }
+    .ring-mid   { animation: spin 13s linear infinite reverse; }
+    .ring-inner { animation: spin 7s linear infinite; }
+    .ticks      { animation: spin 9s linear infinite; }
+    .core       { animation: pulse 2.4s ease-in-out infinite; }
+    .sweep      { animation: spin 3.5s linear infinite; }
+    .scan       { animation: scan 5s ease-in-out infinite; }
+    .bar        { transform-origin: left center; animation: load 3.2s ease-in-out infinite; }
+    .blink      { animation: blink 1.6s steps(1, end) infinite; }
+    .blip       { animation: blip 3.5s ease-out infinite; }
+
+    @keyframes spin  { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%, 100% { transform: scale(0.92); opacity: 0.85; } 50% { transform: scale(1.04); opacity: 1; } }
+    @keyframes scan  { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(318px); } }
+    @keyframes load  { 0%, 100% { transform: scaleX(0.45); } 50% { transform: scaleX(0.85); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+    @keyframes blip  { 0%, 60%, 100% { opacity: 0.15; } 70% { opacity: 1; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
   <defs>
     <radialGradient id="bgGlow" cx="50%" cy="45%" r="70%">
       <stop offset="0%" stop-color="#0a1c2a"/>
@@ -11,6 +42,13 @@
       <stop offset="75%" stop-color="#004a5c"/>
       <stop offset="100%" stop-color="#001318" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="sweepFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.35"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#00e5ff" stroke-width="0.5"/>
+    </pattern>
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
@@ -27,68 +65,61 @@
     </filter>
   </defs>
 
+  <!-- Background, grid and HUD frame -->
   <rect width="900" height="320" fill="url(#bgGlow)"/>
+  <rect width="900" height="320" fill="url(#grid)" opacity="0.05"/>
+  <g fill="none" stroke="#00e5ff" stroke-width="1.5" opacity="0.45">
+    <path d="M14 40V14H40"/>
+    <path d="M860 14H886V40"/>
+    <path d="M886 280V306H860"/>
+    <path d="M40 306H14V280"/>
+  </g>
+  <rect class="scan" x="0" y="0" width="900" height="2" fill="#00e5ff" opacity="0.2"/>
 
-  <line x1="0" y1="0" x2="0" y2="0" stroke="#00e5ff" stroke-width="1" opacity="0.35">
-    <animate attributeName="y1" values="0;320" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="0;320" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="900;900" dur="4s" repeatCount="indefinite"/>
-  </line>
-  <rect x="0" y="0" width="900" height="2" fill="#00e5ff" opacity="0.25">
-    <animate attributeName="y" values="0;318;0" dur="5s" repeatCount="indefinite"/>
-  </rect>
-
+  <!-- Arc reactor -->
   <g transform="translate(160,160)">
-    <circle r="118" fill="none" stroke="#0a4a5c" stroke-width="1" stroke-dasharray="2 6" opacity="0.6">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="95" fill="none" stroke="#00b6d4" stroke-width="1" opacity="0.55">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="13s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="70" fill="none" stroke="#7df9ff" stroke-width="1.4" stroke-dasharray="120 90" opacity="0.8">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle r="48" fill="url(#coreGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="46;52;46" dur="2.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.85;1;0.85" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-
-    <g opacity="0.9">
-      <rect x="-2" y="-30" width="4" height="14" fill="#eafcff" transform="rotate(0)"/>
-      <rect x="-2" y="-30" width="4" height="14" fill="#eafcff" transform="rotate(90)"/>
-      <rect x="-2" y="-30" width="4" height="14" fill="#eafcff" transform="rotate(180)"/>
-      <rect x="-2" y="-30" width="4" height="14" fill="#eafcff" transform="rotate(270)"/>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+    <circle class="ring-outer" r="118" fill="none" stroke="#0a4a5c" stroke-width="1" stroke-dasharray="2 6" opacity="0.6"/>
+    <circle class="ring-mid" r="95" fill="none" stroke="#00b6d4" stroke-width="1" stroke-dasharray="40 8 4 8" opacity="0.55"/>
+    <circle class="ring-inner" r="70" fill="none" stroke="#7df9ff" stroke-width="1.4" stroke-dasharray="120 90" opacity="0.8"/>
+    <circle class="core" r="50" fill="url(#coreGlow)" filter="url(#glow)"/>
+    <g class="ticks" opacity="0.9" fill="#eafcff">
+      <rect x="-2" y="-30" width="4" height="14"/>
+      <rect x="-2" y="-30" width="4" height="14" transform="rotate(90)"/>
+      <rect x="-2" y="-30" width="4" height="14" transform="rotate(180)"/>
+      <rect x="-2" y="-30" width="4" height="14" transform="rotate(270)"/>
     </g>
   </g>
 
-  <g font-family="Consolas, Menlo, monospace" fill="#00e5ff">
-    <text x="330" y="130" font-size="34" letter-spacing="4" filter="url(#softglow)" font-weight="bold">AHMED AKREMI</text>
-    <text x="330" y="160" font-size="14" letter-spacing="3" fill="#4d94a8">AI CORE INTERFACE — WEB &amp; MOBILE DEVELOPER</text>
-    <text x="330" y="184" font-size="13" letter-spacing="2" fill="#3a7080">TELECOMMUNICATIONS · SYSTEMS &amp; NETWORKS</text>
+  <!-- Identity -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+    <text x="330" y="92" font-size="11" letter-spacing="3" fill="#2f7385">// IDENTITY CONFIRMED</text>
+    <text x="330" y="130" font-size="34" letter-spacing="4" font-weight="bold" fill="#00e5ff" filter="url(#softglow)">AHMED AKREMI</text>
+    <text x="330" y="160" font-size="14" letter-spacing="3" fill="#4d94a8">FULL STACK &amp; MOBILE DEVELOPER</text>
+    <text x="330" y="184" font-size="13" letter-spacing="2" fill="#3a7080">WEB · MOBILE · AI · CYBERSECURITY</text>
   </g>
 
-  <g font-family="Consolas, Menlo, monospace" font-size="11" fill="#4d94a8">
+  <!-- Status -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#4d94a8">
     <text x="330" y="225">SYSTEM STATUS</text>
-    <text x="470" y="225" fill="#4dffb0">● ONLINE</text>
-
-    <rect x="330" y="235" width="200" height="4" rx="2" fill="#0a2530"/>
-    <rect x="330" y="235" width="150" height="4" rx="2" fill="#00c8ea">
-      <animate attributeName="width" values="90;170;90" dur="3.2s" repeatCount="indefinite"/>
-    </rect>
-    <text x="330" y="256">CPU · RAM · GPU MONITORING ACTIVE</text>
+    <text class="blink" x="440" y="225" fill="#4dffb0">● OPEN TO OPPORTUNITIES</text>
+    <rect x="330" y="235" width="220" height="4" rx="2" fill="#0a2530"/>
+    <rect class="bar" x="330" y="235" width="220" height="4" rx="2" fill="#00c8ea"/>
+    <text x="330" y="256">ICT @ ISITCOM HAMMAM SOUSSE · TUNISIA</text>
   </g>
 
+  <!-- Radar -->
   <g transform="translate(760,225)" opacity="0.9">
     <circle r="42" fill="none" stroke="#0a4a5c" stroke-width="1"/>
+    <circle r="24" fill="none" stroke="#0a4a5c" stroke-width="0.6"/>
     <line x1="-42" y1="0" x2="42" y2="0" stroke="#0a4a5c" stroke-width="0.6"/>
     <line x1="0" y1="-42" x2="0" y2="42" stroke="#0a4a5c" stroke-width="0.6"/>
-    <line x1="0" y1="0" x2="42" y2="0" stroke="#00e5ff" stroke-width="1.4" filter="url(#softglow)">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.5s" repeatCount="indefinite"/>
-    </line>
-    <circle cx="20" cy="-14" r="2" fill="#7df9ff"/>
-    <circle cx="-16" cy="10" r="2" fill="#7df9ff"/>
+    <g class="sweep">
+      <circle r="42" fill="none"/>
+      <path d="M0 0L42 0A42 42 0 0 0 36.4 -21Z" fill="url(#sweepFade)"/>
+      <line x1="0" y1="0" x2="42" y2="0" stroke="#00e5ff" stroke-width="1.4" filter="url(#softglow)"/>
+    </g>
+    <circle class="blip" cx="20" cy="-14" r="2" fill="#7df9ff"/>
+    <circle class="blip" cx="-16" cy="10" r="2" fill="#7df9ff" style="animation-delay: 1.4s"/>
   </g>
-  <text x="760" y="286" font-family="Consolas, monospace" font-size="9" fill="#2f5364" text-anchor="middle" letter-spacing="1">LAT 33.6 · LON 10.9</text>
+  <text x="760" y="286" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9" fill="#2f5364" text-anchor="middle" letter-spacing="1">LAT 33.6 · LON 10.9</text>
 </svg>
